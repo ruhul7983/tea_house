@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tea House</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/circles.png" type="image/x-icon">
   <!-- Daisy and Tailwind -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.1/dist/full.min.css" rel="stylesheet" type="text/css" />
 
@@ -132,19 +134,43 @@
 
     <!-- Super Clients -->
 
-    <section class="my-24 flex flex-col lg:felx-row md:flex-row bg-gradient-to-r from-[#F00] to-[#FF8938] px-20 py-20 rounded-xl" >
+    <section class=" items-center my-24 flex flex-col lg:felx-row md:flex-row bg-gradient-to-r from-[#F00] to-[#FF8938] px-20 py-20 rounded-xl" >
       <div class="">
       <h2 class="text-5xl font-extrabold text-white pb-3">Meet Our Super <br>Clients</h2>
       <p class="font-light text-white pb-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
       <button class="btn b bg-white text-black border-none hover:bg-gray-300  ">Show All</button>
       </div>
-      <div class="">
+      <!-- Review Container -->
+      <div class="relative">
           <!-- customer review -->
-          <div class="relative p-10 rounded-lg bg-white">
-            <img class="absolute -top-6 -left-6 border-lime-50"  src="images/client.png" alt="">
-            <p class="text-gray-700">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+          <div class="relative z-10 p-10 rounded-lg bg-white opacity-40 mb-5">
+            <img class="absolute -top-6 -left-6 border-4 border-white rounded-full bg-white"  src="images/client.png" alt="">
+            <p class="text-gray-700 font-light">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
             <p class="font-bold my-3 text-gray-700">Ilham Yuda</p>
             <p class="text-gray-700">Businessman</p>
+            <div class="flex justify-end">
+              <img src="images/circles.png" alt="">
+            </div>
+          </div>
+          <!-- customer review -->
+          <div class="absolute z-20 p-10 rounded-lg bg-white top-24 -left-10 lg:w-[390px]">
+            <img class="absolute -top-6 -left-6 border-4 border-white rounded-full bg-white"  src="images/client.png" alt="">
+            <p class="text-gray-700 font-light">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+            <p class="font-bold my-3 text-gray-700">Ilham Yuda</p>
+            <p class="text-gray-700">Businessman</p>
+            <div class="flex justify-end">
+              <img src="images/circles.png" alt="">
+            </div>
+          </div>
+          <!-- customer review -->
+          <div class="relative z-10 p-10 rounded-lg bg-white opacity-40">
+            <img class="absolute -top-6 -left-6 border-4 border-white rounded-full bg-white"  src="images/client.png" alt="">
+            <p class="text-gray-700 font-light">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+            <p class="font-bold my-3 text-gray-700">Ilham Yuda</p>
+            <p class="text-gray-700">Businessman</p>
+            <div class="flex justify-end">
+              <img src="images/circles.png" alt="">
+            </div>
           </div>
       </div>
     </section>
